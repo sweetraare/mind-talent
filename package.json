@@ -1,0 +1,16 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.7"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "aos": "^2.3.4",
+    "normalize.css": "^8.0.1"
+  }
+}
