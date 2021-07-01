@@ -78,6 +78,21 @@ textarea {
   border-color: var(--dark);
 }
 
+.contact-text {
+  margin: 0.2em 0;
+}
+
+.contact-values {
+  margin: 0.2em 0;
+  border-left: 5px solid black;
+  padding-left: 1em;
+}
+
+.contact-values span {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
 /* form starting stylings ------------------------------- */
 .group {
   position: relative;

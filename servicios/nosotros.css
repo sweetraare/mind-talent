@@ -6,84 +6,24 @@ h2 {
   text-align: center;
 }
 
-/* QUIENES-SOMOS */
-#quienes-somos {
-  padding: 3rem 0;
-  background-color: var(--main-background);
-}
-
-/* MISION-VISION */
-
-.mision-vision {
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 3rem 0;
-}
-
-/* EQUIPO */
-.equipo {
-  padding: 3rem 0;
-  background-color: var(--dark);
-}
-
-.equipo__title {
-  font-size: clamp(1.5rem, 10vw, 2.3rem);
-  color: var(--accent);
-}
-
-.equipo__avatar {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  align-self: center;
-}
-
-.equipo__card {
-  background-color: var(--dark);
-  border-radius: 10px;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  display: flex;
-  box-shadow: -16px -16px 31px #2c2c2c, 16px 16px 31px #3c3c3c;
-  color: var(--white);
-}
-
-.equipo__text {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  margin-left: 1rem;
-  width: 70%;
-}
-
-.equipo__name {
-  font-weight: bold;
-  font-size: 1.1em;
-  border-bottom: 1px solid var(--white);
-}
-
-.profession {
-  font-weight: bold;
-}
-
-.equipo__icons-container {
-  display: flex;
-  color: var(--white);
-  justify-content: space-evenly;
-  font-size: 1.25rem;
-}
-
 hr {
   width: 100%;
 }
 
 /* SERVICIO */
+
 .servicio {
   margin: 3rem 0;
   padding: 1rem;
   background-color: #fff;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  display: block;
+}
+.servicio span {
+  margin-top: -300px; /* Size of fixed header */
+  padding-bottom: 300px;
+  display: block;
+  pointer-events: none;
 }
 
 .servicio__name {

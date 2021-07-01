@@ -71,13 +71,23 @@
       <div class="container">
         <div class="row contact-page">
           <div class="col contact-info">
-            <h1>Descubre tu talento</h1>
+            <h2>Contáctanos</h2>
+            <p class="contact-text">Tienes dudas? Nos gustaría saber de ti</p>
+            <p class="contact-text">
+              Puedes comunicarte con nosotros por las siguientes vías:
+            </p>
+            <div class="contact-values">
+              <p><span>Teléfono:</span>0101010</p>
+              <p><span>Teléfono:</span>0101010</p>
+              <p><span>Teléfono:</span>0101010</p>
+            </div>
           </div>
           <div class="col contact-form">
             <h3 class="contact-form__title">
               Llena esta formulario y en poco estaremos en contacto contigo
             </h3>
             <form id="contact-form">
+              <input type="hidden" name="contact_number" />
               <div class="contact__name-container">
                 <div class="group">
                   <input type="text" required name="nombre" id="nombre" />
@@ -108,7 +118,11 @@
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Mensaje</label>
-                <button class="contact-form__send" type="submit">
+                <button
+                  class="contact-form__send"
+                  type="submit"
+                  id="submit-form"
+                >
                   Contactar
                 </button>
               </div>
@@ -118,7 +132,40 @@
       </div>
     </div>
 
+    <footer class="row">
+      <div class="social-network-container">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="social-network"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          class="social-network"
+          href="https://www.instagram.com"
+          target="_blank"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          class="social-network"
+          href="https://www.twitter.com"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <p class="signature">
+        Powered by: <a href="mailto:ajua_1696@hotmail.com">SWEETRAARE</a>
+      </p>
+    </footer>
+
     <script type="module" src="./nosotros.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
   </body>
 </html>
