@@ -228,6 +228,49 @@
     </main>
 
     <footer class="row">
+      <div class="col contact-form">
+        <h3 class="contact-form__title">
+          Llena esta formulario y en poco estaremos en contacto contigo
+        </h3>
+        <form id="contact-form">
+          <input type="hidden" name="contact_number" />
+          <div class="contact__name-container">
+            <div class="group">
+              <input type="text" required name="nombre" id="nombre" />
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Nombre</label>
+            </div>
+            <div class="group">
+              <input type="text" required name="apellido" id="apellido" />
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Apellido</label>
+            </div>
+          </div>
+          <div class="group">
+            <input type="email" required name="email" id="email" />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Correo Electrónico</label>
+          </div>
+          <div class="group">
+            <textarea
+              type="text"
+              required
+              name="message"
+              id="message"
+            ></textarea>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Mensaje</label>
+            <button class="contact-form__send" type="submit" id="submit-form">
+              Contactar
+            </button>
+          </div>
+        </form>
+      </div>
+
       <div class="social-network-container">
         <a
           href="https://www.facebook.com"
