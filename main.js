@@ -10,16 +10,11 @@ emailjs.init(`${import.meta.env.VITE_EMAIL_USER_ID}`);
 NavBar();
 
 new Splide("#image-slider", {
-  // cover: true,
+  cover: true,
   type: "fade",
   rewind: true,
   autoplay: true,
   heightRatio: 0.3,
-  breakpoints: {
-    630: {
-      heightRatio: 0.5,
-    },
-  },
 }).mount();
 
 const servicesArray = Array.from(
