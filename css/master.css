@@ -68,14 +68,14 @@ header {
   width: 3em;
   height: 3em;
   padding: 0em;
+  /* padding-left: 1em; */
   border-radius: 50%;
-  background: #a59678;
+  background: var(--accent);
   color: white;
   transition: opacity 250ms ease;
   z-index: 3;
-
   position: absolute;
-  left: 0;
+  left: 15px;
 }
 
 .nav-toggle:focus,
@@ -94,7 +94,7 @@ header {
   display: block;
   margin: 0 auto;
   height: 3px;
-  background: white;
+  background: var(--dark);
 }
 
 .hamburger::before,
@@ -212,11 +212,13 @@ header {
   text-align: center;
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 0rem;
+  color: white;
 }
 
 .main__text {
   font-size: clamp(1rem, 5vw, 1.615rem);
   text-align: center;
+  color: white;
 }
 
 /* SERVICIOS */
