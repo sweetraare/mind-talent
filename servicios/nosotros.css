@@ -45,11 +45,20 @@ hr {
 
 .servicio__points {
   list-style-type: circle;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .servicio__points li {
   margin-bottom: 0.4em;
+}
+
+.subservicio__points {
+  list-style-type: initial;
+  list-style-position: inside;
+}
+
+.subservicio__points li {
+  margin-bottom: 0.1em;
 }
 
 @media (min-width: 550px) {

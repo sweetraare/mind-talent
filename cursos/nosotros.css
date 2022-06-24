@@ -9,7 +9,7 @@ h2 {
 /* QUIENES-SOMOS */
 #quienes-somos {
   padding: 3rem 0;
-  background-color: var(--main-background);
+  background-color: #f9f9f9;
 }
 
 /* MISION-VISION */
@@ -125,7 +125,7 @@ h2 {
   box-sizing: border-box;
   text-decoration: none;
   font-weight: bold;
-  color: var(--white);
+  color: var(-- );
   text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
   text-align: center;
   transition: all 0.15s;

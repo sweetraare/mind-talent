@@ -2,12 +2,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 /* COMMON STYLES */
 :root {
-  --nav-background: #545454;
+  --nav-background: #f8f8fa;
   --white: #fefefe;
-  --accent: #ffff00;
-  --main-background: #808080;
+  --accent: #ffbd12;
+  --main-background: #6e7c7c;
   --dark: #343434;
-  --accent-form: #00bbcb;
+  --accent-form: #ffbd12;
   font-family: "Quicksand", sans-serif;
   scroll-behavior: smooth;
 }
@@ -52,7 +52,7 @@ h3 {
 header {
   background: var(--nav-background);
   color: var(--white);
-  padding: 0.5em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@ header {
 }
 
 .nav__link {
-  color: white;
+  color: #6e7c7c;
   text-transform: uppercase;
   margin: 0 auto;
   font-weight: bold;
@@ -204,7 +204,7 @@ header {
 
 /* MAIN */
 .main {
-  padding: 2rem 0;
+  padding: 5rem 0;
   background: var(--main-background);
 }
 
@@ -212,13 +212,13 @@ header {
   text-align: center;
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 0rem;
-  color: white;
+  color: #ffbd12;
 }
 
 .main__text {
-  font-size: clamp(1rem, 5vw, 1.615rem);
+  font-size: clamp(2rem, 5vw, 1.615rem);
   text-align: center;
-  color: white;
+  color: #f8f8fa;
 }
 
 /* SERVICIOS */
@@ -239,7 +239,7 @@ header {
 
 /* FOOTER */
 footer {
-  background-color: var(--dark);
+  background-color: #6e7c7c;
   color: var(--white);
   padding: 1rem 0 1rem 0;
   display: flex;
@@ -270,7 +270,7 @@ footer {
 
 .signature {
   font-size: 0.5em;
-  margin: 1em 0 0 0;
+  margin: 3em 0 0 0;
 }
 
 /* MEDIA QUERY */
@@ -377,7 +377,7 @@ footer {
   margin: 3rem 0;
   padding: 1rem;
   background-color: var(--dark);
-  box-shadow: 20px 20px 60px #2c2c2c, -20px -20px 60px #3c3c3c;
+  box-shadow: 10px 10px 10px #2c2c2c;
 }
 
 textarea {
@@ -386,7 +386,7 @@ textarea {
 
 .contact-form__send {
   display: inline-flex;
-  background: var(--nav-background);
+  background: #ffbd12;
   padding: 1em 0.5em;
   margin: 1em 0;
   padding: 0.46em 1.6em;
